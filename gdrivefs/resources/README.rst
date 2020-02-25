@@ -28,6 +28,10 @@ some of the dependencies. Under Ubuntu, this is done via::
 
     $ sudo apt-get install build-essential python-dev
 
+Finally, you need to install runtime dependencies. On Ubuntu::
+
+    $ sudo apt-get install libfuse2
+
 Now, to install GDriveFS::
 
     $ sudo pip install gdrivefs
